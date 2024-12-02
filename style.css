@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: radial-gradient(#6A1E55,#3B1C32)
+    
+}
+ .container {
+    max-width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    color: white;
+ }
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+nav {
+    flex: 1 0 0;
+    text-align: right;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.text {
+    font-size: 3rem;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: #FA4032
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.category {
+    background-color: #C1BAA1;
+}
+.col {
+    flex-basis: 50%;
+    
+}
+.col img {
+    max-width: 100%;
+    padding: 50px;
+   
+}
+.btn {
+    display: inline-block;
+    background: #ff523f;
+    margin: 10px 0;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: aliceblue;
+    
+}
+
+p {
+    margin: 30px 0px;
+}
+#Lt-products {
+    background-color: #DCE4C9;
+}
+.text1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    
+}
+span {
+    color: #FF0000;
+}
+.small-cateory {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.col-4 {
+    min-width: 200px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    flex-basis: 20%;
+}
+.col-4 img {
+    width: 100%;
+    size: 100%;
+}
+h4 {
+    font-weight: normal;
+    
+}
+.text2 {
+    margin-top: 0px;
+}
+.offer {
+    background: radial-gradient(#CB9DF0,#F0C1E1);
+    margin-top: 50px;
+    padding: 30px 0;
+}
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.feedback {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+}
+.feedback .col-3 {
+    text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 300px;
+    margin: 10px;
+   
+
+}
+.feedback :hover {
+    transform: translateY(-10px)
+}
+.col-3 img {
+    border-radius: 50%;
+    width: 50px;
+}
+.text4 {
+    
+    font-size: 12px;
+}
+
+
+.footer {
+    background-color: #4B4376;
+    
+}
+.col-6 {
+padding: 20px 0px;
+}
+
+@media screen and (max-width:600px) {
+
+    .row {
+        align-items: center;
+    }
+    .col, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+}
